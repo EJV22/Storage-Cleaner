@@ -1,4 +1,4 @@
-public class mediaFile extends storageFile implements Score{
+public class mediaFile extends storageFile{
 
 ///ENUM///
 public enum MediaType{ mp4, png }
