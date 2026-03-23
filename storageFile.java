@@ -1,6 +1,6 @@
 import java.util.Objects;
 
-public class storageFile implements Comparable<storageFile>, Score{
+public abstract class storageFile implements Comparable<storageFile>, Score{
 
 public enum Type {app, media};
 
@@ -8,6 +8,8 @@ private Type fileType;
 private String name;
 private int storage;
 private boolean isBackup;
+
+public abstract int deletionScore();
 
 ///______________________________CONSTRUCTORS____________________________________///
 
