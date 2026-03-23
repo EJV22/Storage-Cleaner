@@ -1,4 +1,4 @@
-public class appFile extends storageFile implements Score{
+public class appFile extends storageFile{
 
 ///ENUM///
 public enum AppType{ GAMING_OR_SOCIAL, PRODUCTIVITY, }
